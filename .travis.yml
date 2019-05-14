@@ -40,6 +40,11 @@ env:
   global:
     - _R_CHECK_TESTS_NLINES_=0
 
+addons:
+  apt:
+    packages:
+      - libjq-dev
+
 r_packages:
   - covr
   - lintr
