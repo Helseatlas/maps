@@ -43,6 +43,7 @@ env:
 addons:
   apt:
     packages:
+      - libprotobuf-dev
       - libjq-dev
 
 r_packages:
