@@ -36,15 +36,24 @@ test_that("shp2geojson with reduce_size = FALSE and amount = 0.01", {
   )
 })
 
-test_that("shp2geojson with amount = 0.01 and geojson != NULL", {
+test_that("shp2geojson with amount = 0.01", {
   expect_equal_to_reference(
     shp2geojson(
       folder = "data",
       shapefile = "shapefile2",
-      geojson = "tmp",
+      geojson = NULL,
       amount = 0.01
     ),
     "data/shp2geojson3.json"
   )
+})
+
+test_that("shp2geojson with geojson != NULL", {
+  shp2geojson(
+      folder = "data",
+      shapefile = "shapefile1",
+      geojson = "tmp")
+
+  expect_equal_to_reference("tmp.geojson","data/shp2geojson.geojson")
   file.remove("tmp.geojson")
 })
