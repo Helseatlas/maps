@@ -43,6 +43,7 @@ env:
 addons:
   apt:
     packages:
+      - libudunits2-dev
       - libprotobuf-dev
       - libjq-dev
       - protobuf-compiler
