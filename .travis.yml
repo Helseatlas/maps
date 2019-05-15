@@ -45,6 +45,7 @@ addons:
     packages:
       - libprotobuf-dev
       - libjq-dev
+      - protobuf-compiler
 
 r_packages:
   - covr
