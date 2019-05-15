@@ -45,6 +45,7 @@ addons:
     packages:
       - libudunits2-dev
       - libprotobuf-dev
+      - libv8-dev
       - libjq-dev
       - protobuf-compiler
 
