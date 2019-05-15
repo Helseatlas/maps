@@ -48,6 +48,7 @@ addons:
       - libv8-dev
       - libjq-dev
       - protobuf-compiler
+      - libgdal-dev
 
 r_packages:
   - covr
