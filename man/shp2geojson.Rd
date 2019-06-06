@@ -4,8 +4,8 @@
 \alias{shp2geojson}
 \title{Function to convert a shapefile to geojson}
 \usage{
-shp2geojson(shapefile = "eldre", folder = ".",
-  geojson = "eldre_reduced", reduce_size = TRUE, amount = 0.1)
+shp2geojson(shapefile = "eldre", folder = ".", geojson = NULL,
+  reduce_size = TRUE, amount = 0.1)
 }
 \arguments{
 \item{shapefile}{The basename of shapefile to be converted to geojson}
