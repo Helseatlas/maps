@@ -17,4 +17,16 @@ convert_all_shp <- function(){
   tmp <- geojsonio::geojson_read(paste0("geojson/", name, ".geojson"), what = "sp")
   dagkir <- shinymap::utm33_to_leaflet(map = tmp)
   usethis::use_data(dagkir, overwrite = TRUE)
+
+  name <- "dagkir2"
+  maps::shp2geojson(shapefile = name, folder = "shp", geojson = paste0("geojson/", name))
+  tmp <- geojsonio::geojson_read(paste0("geojson/", name, ".geojson"), what = "sp")
+  dagkir2 <- shinymap::utm33_to_leaflet(map = tmp)
+  usethis::use_data(dagkir2, overwrite = TRUE)
+
+  fodsel <- shinymap::utm33_to_leaflet(map = tmp)
+  usethis::use_data(fodsel, overwrite = TRUE)
+
+  gyn <- shinymap::utm33_to_leaflet(map = tmp)
+  usethis::use_data(gyn, overwrite = TRUE)
 }

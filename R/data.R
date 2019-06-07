@@ -18,3 +18,24 @@ NULL
 #' @keywords map
 #' @name kols
 NULL
+
+#' Map from the day surgery healthcare atlas 2013-2017
+#'
+#' @docType data
+#' @keywords map
+#' @name dagkir2
+NULL
+
+#' Map from the gynaecology healthcare atlas
+#'
+#' @docType data
+#' @keywords map
+#' @name gyn
+NULL
+
+#' Map from the birth healthcare atlas
+#'
+#' @docType data
+#' @keywords map
+#' @name fodsel
+NULL
