@@ -5,6 +5,7 @@ Version: 4.0.0
 Date: 2019-06-11
 Author: Arnfinn Hykkerud Steindal
 Maintainer: Arnfinn Hykkerud Steindal <arnfinn.steindal@gmail.com>
+Description: Containing maps in shapefile format, geojson format and as R objects
 License: file LICENSE
 Depends: R (>= 3.4.0)
 LazyData: true
