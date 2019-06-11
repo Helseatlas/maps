@@ -1,11 +1,10 @@
 Package: maps
 Type: Package
-Title: What the package does (short line)
-Version: 0.1
-Date: 2019-05-13
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Title: Package containing maps used by Helseatlas
+Version: 4.0.0
+Date: 2019-06-11
+Author: Arnfinn Hykkerud Steindal
+Maintainer: Arnfinn Hykkerud Steindal <arnfinn.steindal@gmail.com>
 License: file LICENSE
 Depends: R (>= 3.4.0)
 LazyData: true
