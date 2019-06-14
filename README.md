@@ -2,3 +2,4 @@
 
 # Helseatlas maps in R format
 
+Moved to https://github.com/Helseatlas/kart
